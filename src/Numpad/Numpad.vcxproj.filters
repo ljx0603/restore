@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Buttons\AbstractBigButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Buttons\BigHorizontalButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Buttons\BigVerticalButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Buttons\Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Numpad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumpadManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="allbtnwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Buttons\confbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dndnumpad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="helpwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msgbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Buttons\sourcebutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="AboutWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="Buttons\AbstractBigButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Buttons\BigHorizontalButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Buttons\BigVerticalButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="Buttons\Button.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="KeyboardHookMsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="Numpad.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="NumpadManager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SettingsDialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="ShowHideKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="allbtnwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="btninfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="Buttons\confbutton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dndnumpad.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="helpwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="msgbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Buttons\sourcebutton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Examples\All">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Examples\Any">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alt\NumpadConfig.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Examples\Phone\NumpadConfig.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="NumpadConfig.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="arrows\NumpadConfig.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="buttons\NumpadConfig.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="numpad\NumpadConfig.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="text\NumpadConfig.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Examples\Numpad">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Examples\Standard">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gear.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="numpad_icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="resourse.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="with">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="numpad.rc" />
+  </ItemGroup>
+</Project>
